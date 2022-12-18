@@ -92,6 +92,6 @@ class DepthChecker:
             
         return self.checkDepthOnSide(rightHip, rightKnee) or self.checkDepthOnSide(leftHip, leftKnee)
 
-
-s = DepthChecker("./data/squatOneRep.mov")
+url = "./data/squatOneRep.mov"
+s = DepthChecker(url)
 print(s.checkDepth())
