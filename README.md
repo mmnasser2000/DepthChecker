@@ -1,0 +1,1 @@
+Created a squat depth checker using OpenCV and MediaPipe
